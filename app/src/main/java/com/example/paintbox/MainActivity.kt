@@ -1,5 +1,6 @@
 package com.example.paintbox
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -29,7 +30,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedPainting(paintings: paintings){
-
+        val intent = Intent(this@MainActivity, DetailPaintingActivity::class.java)
+        intent.putExtra(DetailPaintingActivity.EXTRA_PAINTINGS, paintings)
+        startActivity(intent)
 //        Toast.makeText(this, "lukisan ini dibuat tahun " + paintings.timeCreated, Toast.LENGTH_SHORT).show()
     }
 
