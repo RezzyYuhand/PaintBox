@@ -8,7 +8,8 @@
     android:layout_marginBottom="6dp"
     android:layout_gravity="center"
     app:cardCornerRadius="15dp"
-    app:cardElevation="8dp">
+    app:cardElevation="8dp"
+    style="@style/PaintingCard">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,8 +31,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="15dp"
             android:text="Painting Title"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            style="@style/TitleTextCard"/>
 
         <TextView
             android:id="@+id/paintingDesc_textView"
@@ -41,7 +41,7 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="10dp"
-            android:textSize="15sp"
+            style="@style/DescTextCard"
             android:text="created by lorem ipsum" />
 
     </LinearLayout>

@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showRecyclerList() {
-        binding.paintingsRv.layoutManager = GridLayoutManager(this,2)
+        binding.paintingsRv.layoutManager = LinearLayoutManager(this)
         val paintingListAdapter = PaintingListAdapter(list)
         binding.paintingsRv.adapter = paintingListAdapter
 
