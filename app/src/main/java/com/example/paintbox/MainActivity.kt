@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun showSelectedPainting(paintings: paintings){
-        Toast.makeText(this, "lukisan ini dibuat tahun " + paintings.timeCreated, Toast.LENGTH_SHORT).show()
+
+//        Toast.makeText(this, "lukisan ini dibuat tahun " + paintings.timeCreated, Toast.LENGTH_SHORT).show()
     }
 
     private fun showRecyclerList() {

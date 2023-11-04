@@ -8,6 +8,12 @@
     </style>
 
     <style name="PaintingCard">
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <style name="DetailCard">
         <item name="cardBackgroundColor">@color/white</item>
     </style>
 
@@ -20,6 +26,27 @@
     <style name="DescTextCard">
         <item name="android:textSize">15sp</item>
         <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="TextInformationTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextInformation">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextInformationDesc">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+
+    <style name="arrowColor">
+        <item name="android:src">@drawable/baseline_arrow_forward_ios_24</item>
     </style>
 
     <style name="Theme.PaintBox" parent="Base.Theme.PaintBox" />

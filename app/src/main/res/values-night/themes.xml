@@ -2,23 +2,50 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PaintBox" parent="Theme.Material3.DayNight">
         <!-- Customize your dark theme here. -->
-        <item name="colorPrimary">@color/primary_color_night</item>
+        <item name="colorPrimary">@color/secondary_color_night</item>
         <item name="colorPrimaryDark">@color/background_color_night</item>
         <item name="android:colorBackground">@color/background_color_night</item>
     </style>
 
     <style name="PaintingCard">
-        <item name="cardBackgroundColor">@color/secondary_color_night</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardBackgroundColor">@color/dark_gray</item>
+    </style>
+
+    <style name="DetailCard">
+        <item name="cardBackgroundColor">@color/dark_gray</item>
     </style>
 
     <style name="TitleTextCard">
         <item name="android:textSize">20sp</item>
         <item name="android:textStyle">bold</item>
-        <item name="android:textColor">@color/primary_color_night</item>
+        <item name="android:textColor">@color/secondary_color_night</item>
     </style>
 
     <style name="DescTextCard">
         <item name="android:textSize">15sp</item>
-        <item name="android:textColor">@color/gray</item>
+        <item name="android:textColor">@color/accent_color_night</item>
+    </style>
+
+    <style name="TextInformationTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondary_color_night</item>
+    </style>
+
+    <style name="TextInformation">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/secondary_color_night</item>
+    </style>
+
+    <style name="TextInformationDesc">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/accent_color_night</item>
+    </style>
+
+    <style name="arrowColor">
+        <item name="android:src">@drawable/baseline_arrow_forward_ios_24_night</item>
     </style>
 </resources>
