@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    //day-color
+    <color name="background_color">#BDF2FF</color>
+    <color name="primary_color">#99d6ff</color>
+    <color name="secondary_color">#00ffcc</color>
+    <color name="accent_color">#008053</color>
+    //night-color
+    <color name="background_color_night">#003542</color>
+    <color name="primary_color_night">#003d66</color>
+    <color name="secondary_color_night">#00ffcc</color>
+    <color name="accent_color_night">#80ffd2</color>
+</resources>

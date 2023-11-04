@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">PaintBox</string>
+    <string name="app_title_desc">portal to the world of art.Immerse yourself in the world of timeless paintings and explore the artistry of the masters</string>
+
+    <string-array name="data_name">
+        <item>Mona Lisa</item>
+        <item>Starry Night</item>
+        <item>The Last Supper</item>
+        <item>The Persistence of Memory</item>
+        <item>The Scream</item>
+        <item>Girl with a Pearl Earring</item>
+        <item>Guernica</item>
+        <item>The Birth of Venus</item>
+        <item>The Night Watch</item>
+        <item>American Gothic</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Mona Lisa by Leonardo da Vinci: Painted between 1503 and 1506, the Mona Lisa is a masterful portrait that captures the serene yet enigmatic gaze of a woman believed to be Lisa Gherardini. Leonardo s meticulous use of sfumato creates a soft, almost ethereal quality to the subject s features. The painting s background includes a distant, hazy landscape that adds to the depth and mystique. The Mona Lisa is celebrated for its incredible attention to detail, the elusive smile that seems to change when you look away, and its enduring status as one of the most famous and enigmatic artworks in the world.</item>
+        <item>Starry Night by Vincent van Gogh: Van Gogh s Starry Night, completed in 1889, is a vivid and emotionally charged depiction of a starry night sky over a small village. The swirling, turbulent patterns in the sky are echoed in the landscape below, creating a sense of cosmic turbulence and tranquility at the same time. The bright crescent moon and the bold use of color give the painting a dreamlike quality. Starry Night is an iconic example of the post-impressionist style and has left a profound impact on the world of art.</item>
+        <item>The Last Supper by Leonardo da Vinci: Painted between 1495 and 1498, The Last Supper is a monumental depiction of the biblical scene in which Jesus reveals that one of his disciples will betray him. Leonardo da Vinci s composition is highly detailed and expressive, capturing the reactions and emotions of the disciples in the moment of revelation. The use of perspective and architectural elements in the painting is groundbreaking for its time and adds to the dramatic intensity of the scene. The Last Supper is not only a masterpiece of Renaissance art but also a powerful representation of a significant moment in Christian history.</item>
+        <item>The Persistence of Memory by Salvador Dalí: Dalí s 1931 surrealist masterpiece, The Persistence of Memory, is a surreal dreamscape filled with melting and distorted pocket watches draped over various objects. The landscape in the background appears barren and otherworldly, adding to the dreamlike quality of the painting. The dripping and melting clocks are a metaphor for the fluidity and subjectivity of time, and the entire composition challenges our understanding of reality and the passage of time.</item>
+        <item>The Scream by Edvard Munch: Painted in 1893, The Scream is a haunting and iconic representation of existential anguish. The figure on the bridge stands against a turbulent, swirling sky and a distorted, almost apocalyptic landscape. The figure s face is contorted in an expression of overwhelming dread. The painting is a vivid expression of the artist s inner turmoil and has become an enduring symbol of the human condition.</item>
+        <item>Girl with a Pearl Earring by Johannes Vermeer: Created around 1665, Girl with a Pearl Earring is a captivating portrait of a young woman with a pearl earring. The subject s enigmatic gaze, soft lighting, and the lustrous pearl have made this painting a timeless masterpiece of Dutch Baroque art. The simplicity and intimacy of the subject draw viewers into a moment of quiet contemplation.</item>
+        <item>Guernica by Pablo Picasso: Painted in 1937, Guernica is a powerful and harrowing anti-war painting that depicts the horrors of the Spanish Civil War. The fractured and distorted figures and animals in the painting evoke the chaos and suffering caused by the bombing of the town of Guernica. It is a stark and emotional protest against the brutality of war and remains one of Picasso s most renowned works.</item>
+        <item>The Birth of Venus by Sandro Botticelli: Created between 1484 and 1486, The Birth of Venus is a Renaissance masterpiece that portrays the goddess Venus emerging from the sea on a seashell. The painting s graceful and idealized figures, along with the classical references, reflect the humanistic spirit of the Renaissance. The composition is harmonious and ethereal, making it a quintessential example of the era s art.</item>
+        <item>The Night Watch by Rembrandt: Painted in 1642, The Night Watch is a group portrait of a city militia. Rembrandt s dynamic composition, dramatic use of light and shadow, and the depiction of various individuals in action create a vibrant and engaging scene. The painting captures the civic pride and energy of the Dutch Golden Age and is celebrated for its technical mastery.</item>
+        <item>American Gothic by Grant Wood: Created in 1930, American Gothic is an iconic portrayal of a stern-looking farmer and his daughter standing in front of a Gothic-style farmhouse. The subjects dour expressions and the detailed depiction of rural life symbolize the stoic and hardworking American spirit during the Great Depression. The painting is a quintessential example of American Regionalism.</item>
+    </string-array>
+
+    <string-array name="data_maker">
+        <item>Leonardo da Vinci</item>
+        <item>Vincent van Gogh</item>
+        <item>Leonardo da Vinci</item>
+        <item>Salvador Dalí</item>
+        <item>Edvard Munch</item>
+        <item>Johannes Vermeer</item>
+        <item>Pablo Picasso</item>
+        <item>Sandro Botticelli</item>
+        <item>Rembrandt</item>
+        <item>Grant Wood</item>
+    </string-array>
+
+    <string-array name="data_year">
+        <item>c. 1503-1506</item>
+        <item>1889</item>
+        <item>c. 1495-1498</item>
+        <item>1931</item>
+        <item>1893</item>
+        <item>c. 1665</item>
+        <item>1937</item>
+        <item>c. 1484-1486</item>
+        <item>1642</item>
+        <item>1930</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/405px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/525px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/%C3%9Altima_Cena_-_Da_Vinci_5.jpg/525px-%C3%9Altima_Cena_-_Da_Vinci_5.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg/330px-Edvard_Munch%2C_1893%2C_The_Scream%2C_oil%2C_tempera_and_pastel_on_cardboard%2C_91_x_73_cm%2C_National_Gallery_of_Norway.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/1665_Girl_with_a_Pearl_Earring.jpg/405px-1665_Girl_with_a_Pearl_Earring.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg/600px-Sandro_Botticelli_-_La_nascita_di_Venere_-_Google_Art_Project_-_edited.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Night_Watch_-_HD.jpg/570px-The_Night_Watch_-_HD.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg/450px-Grant_Wood_-_American_Gothic_-_Google_Art_Project.jpg</item>
+    </string-array>
+</resources>

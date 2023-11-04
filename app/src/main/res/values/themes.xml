@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PaintBox" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/background_color</item>
+        <item name="colorPrimaryDark">@color/primary_color</item>
+        <item name="android:colorBackground">@color/primary_color</item>
+    </style>
+
+    <style name="Theme.PaintBox" parent="Base.Theme.PaintBox" />
+</resources>
