@@ -3,6 +3,8 @@ package com.example.paintbox
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import android.widget.Toast
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.recyclerview.widget.GridLayoutManager
@@ -60,6 +62,21 @@ class MainActivity : AppCompatActivity() {
             listPainting.add(painting)
         }
         return listPainting
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_main, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when (item.itemId) {
+            R.id.action_about -> {
+                val intent2 = Intent(this@MainActivity, AboutActivity::class.java)
+                startActivity(intent2)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 

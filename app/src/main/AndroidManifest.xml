@@ -15,6 +15,9 @@
         android:theme="@style/Theme.PaintBox"
         tools:targetApi="31">
         <activity
+            android:name=".AboutActivity"
+            android:exported="false" />
+        <activity
             android:name=".DetailPaintingActivity"
             android:exported="false" />
         <activity

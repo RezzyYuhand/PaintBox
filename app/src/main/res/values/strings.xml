@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">PaintBox</string>
-    <string name="app_title_desc">portal to the world of art.Immerse yourself in the world of timeless paintings and explore the artistry of the masters</string>
+    <string name="about_paintBox">About PaintBox</string>
+    <string name="app_title_desc">Portal to the world of art.Immerse yourself in the world of timeless paintings and explore the artistry of the masters. In PaintBox you can view some information about Famous Paintings around the world. You can also share those information to your friends if you want.</string>
+
+    <string name="nama_developer">Rezzy Yuhand Pramudita</string>
+    <string name="email_developer">rezzyyuhandp@gmail.com</string>
 
     <string-array name="data_name">
         <item>Mona Lisa</item>

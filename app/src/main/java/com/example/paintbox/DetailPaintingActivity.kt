@@ -1,5 +1,6 @@
 package com.example.paintbox
 
+import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -17,6 +18,8 @@ class DetailPaintingActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_painting)
+
+        this.getSupportActionBar()?.hide()
 
         binding = ActivityDetailPaintingBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -43,6 +46,22 @@ class DetailPaintingActivity : AppCompatActivity() {
             Glide.with(this)
                 .load(photo)
                 .into(binding.detailImageView)
+        }
+
+        binding.actionShare.setOnClickListener {
+            if (paintings != null) {
+                val message = "I shared the information i got from PaintBox App\n" +
+                        "this is ${paintings.name} created by ${paintings.maker} in ${paintings.timeCreated}\n" +
+                        "You can check the image in this link\n" +
+                        "${paintings.photo}"
+
+                val intent = Intent()
+                intent.action = Intent.ACTION_SEND
+                intent.putExtra(Intent.EXTRA_TEXT, message)
+                intent.type = "text/plain"
+
+                startActivity(Intent.createChooser(intent, "Share to : "))
+            }
         }
 
     }
